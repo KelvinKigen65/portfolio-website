@@ -7,12 +7,14 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Home from './pages/Home';
 
 function App() {
   return (
     <Router>
       <div className="App">
         <main>
+          <Home/>
           <Hero />
           <About />
           <Projects />
@@ -25,3 +27,4 @@ function App() {
 }
 
 export default App;
+
