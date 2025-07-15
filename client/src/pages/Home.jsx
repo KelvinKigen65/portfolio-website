@@ -1,11 +1,11 @@
-import Navbar from '../components/Navbar';
-import Hero from '../components/Hero';
-import About from '../components/About';
-import Projects from '../components/Projects';
-import Contact from '../components/Contact';
-import Footer from '../components/Footer';
+import Navbar from '../components/layout/Navbar';
+import Hero from '../components/sections/Hero';
+import About from '../components/sections/About';
+import Projects from '../components/sections/Projects';
+import Contact from '../components/sections/Contact';
+import Footer from '../components/layout/Footer';
 
-function Home() {
+export default function Home() {
   return (
     <div className="app">
       <Navbar />
@@ -19,5 +19,3 @@ function Home() {
     </div>
   );
 }
-
-export default Home;
